@@ -14,20 +14,27 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImgViewOne: UIImageView!
     @IBOutlet weak var diceImgViewTwo: UIImageView!
     @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var btnTitle: UIButton!
-    //Override Function
+
+    
+//Global Variables
+    var welcomeTxt = "Are you Ready?"
+//Override Function
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = "Are you Ready?"
+        label.text = welcomeTxt
     }
     
 //Functions
     @IBAction func rollerFunction(_ sender: Any) {
-        diceImgViewOne.image = #imageLiteral(resourceName: "DiceSix")
-        diceImgViewTwo.image = #imageLiteral(resourceName: "DiceSix")
+        let randomNumberLeft = Int.random(in: 0..<5)
+        let randomNumberRight = Int.random(in: 0..<5)
+
+        diceImgViewOne.image = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")] [randomNumberLeft]
+        diceImgViewTwo.image = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")] [randomNumberRight]
         diceImgViewOne.alpha = 0.9
         diceImgViewTwo.alpha = 0.9
         logoImg.alpha = 1
-        label.text = "Kudos 🥳🥳"    }
+//        label.text = "Kudos 🥳🥳"
+    }
 }
 
