@@ -20,6 +20,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="Emd-YN-zjU">
+                                <rect key="frame" x="55" y="388" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="WLn-tA-oVK">
+                                <rect key="frame" x="87" y="106" width="240" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="cFi-Qb-MPQ">
+                                <rect key="frame" x="238" y="388" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -31,6 +43,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="DiceOne" width="100" height="100"/>
+        <image name="DiceeLogo" width="196" height="128"/>
         <image name="GreenBackground" width="444.5" height="414"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
