@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImgViewOne: UIImageView!
     @IBOutlet weak var diceImgViewTwo: UIImageView!
     @IBOutlet weak var label: UILabel!
-    
+    @IBOutlet weak var btnTitle: UIButton!
     //Override Function
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         diceImgViewOne.alpha = 0.9
         diceImgViewTwo.image = #imageLiteral(resourceName: "DiceSix")
         diceImgViewTwo.alpha = 0.9
-        label.text = "Kudos 🥳"
+        label.text = "Kudos 🥳🥳"
         logoImg.alpha = 1
     }
 }
