@@ -18,17 +18,16 @@ class ViewController: UIViewController {
     //Override Function
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        label.text = "Are you Ready?"
     }
     
 //Functions
     @IBAction func rollerFunction(_ sender: Any) {
         diceImgViewOne.image = #imageLiteral(resourceName: "DiceSix")
-        diceImgViewOne.alpha = 0.9
         diceImgViewTwo.image = #imageLiteral(resourceName: "DiceSix")
+        diceImgViewOne.alpha = 0.9
         diceImgViewTwo.alpha = 0.9
-        label.text = "Kudos 🥳🥳"
         logoImg.alpha = 1
-    }
+        label.text = "Kudos 🥳🥳"    }
 }
 
