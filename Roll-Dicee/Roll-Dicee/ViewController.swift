@@ -23,18 +23,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         label.text = welcomeTxt
     }
+
+
     
 //Functions
     @IBAction func rollerFunction(_ sender: Any) {
         let randomNumberLeft = Int.random(in: 0..<5)
         let randomNumberRight = Int.random(in: 0..<5)
+        let arrOfImg = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")]
 
-        diceImgViewOne.image = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")] [randomNumberLeft]
-        diceImgViewTwo.image = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")] [randomNumberRight]
+        diceImgViewOne.image = arrOfImg [randomNumberLeft]
+        diceImgViewTwo.image = arrOfImg [randomNumberRight]
         diceImgViewOne.alpha = 0.9
         diceImgViewTwo.alpha = 0.9
         logoImg.alpha = 1
-//        label.text = "Kudos 🥳🥳"
+//label.text = "Kudos 🥳🥳"
     }
 }
 
