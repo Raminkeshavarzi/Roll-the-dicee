@@ -19,10 +19,10 @@ class ViewController: UIViewController {
 //Global Variables
     var welcomeTxt = "Are you Ready?"
 //Override Function
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        label.text = welcomeTxt
-    }
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        label.text = welcomeTxt
+//    }
 
 
     
