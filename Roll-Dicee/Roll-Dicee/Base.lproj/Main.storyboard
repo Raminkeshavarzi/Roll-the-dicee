@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="bpg-zy-6SV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="bpg-zy-6SV">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="Emd-YN-zjU">
                                 <rect key="frame" x="50" y="424" width="120" height="120"/>
@@ -55,6 +54,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bpg-zy-6SV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0QG-IK-JZS"/>
+                            <constraint firstItem="bpg-zy-6SV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="GJT-b3-xto"/>
+                            <constraint firstItem="bpg-zy-6SV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Xwn-a0-jag"/>
+                            <constraint firstAttribute="bottom" secondItem="bpg-zy-6SV" secondAttribute="bottom" id="hPl-f3-cFi"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="diceImgViewOne" destination="Emd-YN-zjU" id="LMk-UQ-gs0"/>
