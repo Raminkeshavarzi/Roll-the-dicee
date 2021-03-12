@@ -23,8 +23,8 @@ class ViewController: UIViewController {
     @IBAction func rollerFunction(_ sender: Any) {
         let randomNumberLeft = Int.random(in: 0...5)
         let randomNumberRight = Int.random(in: 0...5)
-        print(randomNumberLeft)
-        print(randomNumberRight)
+//        print(randomNumberLeft)
+//        print(randomNumberRight)
         let arrOfImg = [#imageLiteral(resourceName: "DiceOne"),#imageLiteral(resourceName: "DiceTwo"),#imageLiteral(resourceName: "DiceThree"),#imageLiteral(resourceName: "DiceFour"),#imageLiteral(resourceName: "DiceFive"),#imageLiteral(resourceName: "DiceSix")]
 
         diceImgViewOne.image = arrOfImg [randomNumberLeft]
