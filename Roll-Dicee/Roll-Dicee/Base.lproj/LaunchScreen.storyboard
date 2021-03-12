@@ -18,23 +18,20 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="WBL-qZ-taK">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Developed By Ramin Keshavarzi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axN-gk-bfV">
-                                <rect key="frame" x="48" y="776" width="319" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed By Ramin Keshavarzi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axN-gk-bfV">
+                                <rect key="frame" x="60.5" y="822" width="293" height="25.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Roller Dicee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwc-QJ-EA1">
-                                <rect key="frame" x="115" y="436" width="184" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roller Dicee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwc-QJ-EA1">
+                                <rect key="frame" x="130" y="292" width="154" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="5jD-YU-NrE">
-                                <rect key="frame" x="87" y="134" width="240" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="5jD-YU-NrE">
+                                <rect key="frame" x="109" y="119" width="196" height="128"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -43,7 +40,13 @@
                             <constraint firstAttribute="bottom" secondItem="WBL-qZ-taK" secondAttribute="bottom" id="4oF-LC-gdp"/>
                             <constraint firstItem="WBL-qZ-taK" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="6ya-My-Gig"/>
                             <constraint firstItem="WBL-qZ-taK" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="8X8-pd-5RY"/>
+                            <constraint firstItem="5jD-YU-NrE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9Ye-hk-wm0"/>
+                            <constraint firstItem="wwc-QJ-EA1" firstAttribute="top" secondItem="5jD-YU-NrE" secondAttribute="bottom" constant="45" id="ABS-S6-uSu"/>
+                            <constraint firstItem="axN-gk-bfV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-40" id="Krf-MG-e7T"/>
                             <constraint firstItem="WBL-qZ-taK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Sjm-K3-Obp"/>
+                            <constraint firstItem="5jD-YU-NrE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="Uqx-XN-uGq"/>
+                            <constraint firstItem="axN-gk-bfV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VKq-Tq-lif"/>
+                            <constraint firstItem="wwc-QJ-EA1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="idb-kP-IlP"/>
                         </constraints>
                     </view>
                 </viewController>
